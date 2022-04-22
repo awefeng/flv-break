@@ -28,7 +28,6 @@
     "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && babel src -d lib --extensions \".ts\"",
-    "postversion": "git push && git push --tags",
     "prepare": "npm run build"
   },
   "files": [
