@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES5",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    /* Modules */
+    "module": "CommonJS",                                /* Specify what module code is generated. */
+    /* Emit */
+    "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "declarationDir": "./lib",
+    //"noEmit": true,                                   /* Disable emitting files from a compilation. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied `any` type.. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "**/__test/*"]
+}
