@@ -12,12 +12,20 @@ module.exports = {
     sourceType: 'module'
   },
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint', 'react', 'prettier'],
   extends: [
     'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
     'plugin:prettier/recommended',
     'plugin:@typescript-eslint/recommended'
   ],
+  settings: {
+    react: {
+      pragma: 'React',
+      version: 'detect'
+    }
+  },
   rules: {
     'no-inner-declarations': 'warn',
     'block-scoped-var': 'error',

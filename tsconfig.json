@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react-jsx",
     /* Language and Environment */
     "target": "ES5",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "lib": ["ESNext", "DOM", "DOM.Iterable"],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
@@ -7,6 +8,7 @@
     "module": "CommonJS",                                /* Specify what module code is generated. */
     /* Emit */
     "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "emitDeclarationOnly": true,
     "declarationDir": "./lib",
     //"noEmit": true,                                   /* Disable emitting files from a compilation. */
     "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
