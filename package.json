@@ -35,7 +35,8 @@
     "prepare": "npm run build"
   },
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "types/**/*"
   ],
   "repository": {
     "type": "git",
